@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_pymongo import PyMongo
-from flask import jsonifyssss
+from flask import jsonify
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/Terroist"
